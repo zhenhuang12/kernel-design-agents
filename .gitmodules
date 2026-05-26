@@ -1,6 +1,6 @@
 [submodule "skills/KernelWiki"]
 	path = skills/KernelWiki
-	url = https://github.com/zhenhuang12/KernelWiki.git
+	url = git@github.com:zhenhuang12/KernelWiki.git
 [submodule "skills/rocprof-report-skill"]
 	path = skills/rocprof-report-skill
 	url = https://github.com/zhenhuang12/rocprof-report-skill
