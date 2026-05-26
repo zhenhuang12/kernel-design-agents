@@ -22,12 +22,12 @@ cd kernel-design-agents
 
 # link skills
 mkdir -p ~/.claude/skills
-ln -s "$(pwd)/skills/ncu-report-skill" ~/.claude/skills/ncu-report-skill
+ln -s "$(pwd)/skills/rocprof-report-skill" ~/.claude/skills/rocprof-report-skill
 ln -s "$(pwd)/skills/KernelWiki" ~/.claude/skills/KernelWiki
 
 # or clone skills directly
 mkdir -p ~/.claude/skills && cd ~/.claude/skills
-git clone https://github.com/mit-han-lab/ncu-report-skill.git
+git clone https://github.com/mit-han-lab/rocprof-report-skill.git
 git clone https://github.com/mit-han-lab/KernelWiki.git
 ```
 
